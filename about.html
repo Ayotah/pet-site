@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+      <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons (Optional) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+</head>
+<style>
+    .transition-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .transition-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  .blog-img-wrapper {
+    height: 280px;
+    overflow: hidden;
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+  }
+
+  .blog-img-wrapper img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+  @media (max-width: 767.98px) {
+  #about h1 {
+    font-size: 2rem;
+  }
+}
+
+</style>
+<body>
+
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top py-2">
+  <div class="container d-flex align-items-center">
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img 
+        src="./logo.jpeg" 
+        alt="GreenLeaf Logo" 
+        class="me-2" 
+        style="height: 45px; width: auto; object-fit: contain; border-radius: 100%;"
+      />
+      <!-- <span class="fw-bold text-white">GreenLeaf</span> -->
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="testimonial.html">Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- About Section -->
+    <section id="about" class="section bg-light py-5">
+  <div class="container my-5">
+    
+    <!-- Heading -->
+    <h1 class="text-center fw-bold text-warning mb-3">About Us</h1>
+    <hr class="mb-5 mx-auto" style="width: 100px; border-top: 2px solid #198754;">
+    
+    <!-- Content Row -->
+    <div class="row align-items-center gy-4">
+
+      <!-- Text Column -->
+      <div class="col-md-6" data-aos="fade-right">
+        <h2 class="fw-bold text-warning mb-3">About Pawfect Pets</h2>
+        <p class="lead">
+          Welcome to Pawfect pet the ultimate online hub for mainecoon cat lovers lovers! We’re passionate about celebrating the unique bond we share with our furry, feathered, and scaly friends. Our mission is simple: to create a welcoming community where cats are adored, stories are shared, and connections are made. Whether you're here to showcase your beloved mainecoon's, explore helpful resources, or connect with like-minded animal lovers, we’ve got something for everyone. At pawfect pets, we believe that every cat deserves the spotlight and every cat owner deserves to be part of a vibrant, supportive community. Join us on this exciting journey to celebrate the cats bring into our lives—because when cats thrive, we thrive!</p>
+        <p>Founded in 2023, Pawfect Pets has quickly become a trusted name
+        
+      </div>
+
+      <!-- Image Column -->
+      <div class="col-md-6" data-aos="fade-left">
+        <img src="girl.jpeg" alt="About GreenLeaf" class="img-fluid rounded shadow-sm">
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- blog section -->
+<!-- Blog Section -->
+<section class="py-5 bg-white text-dark" id="blog">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h2 class="fw-bold text-warning mb-3">Latest from Our Blog</h2>
+      <p class="text-muted">Education, tips, and stories from the world of cannabis.</p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Blog Post 1 -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="card h-100 shadow-sm blog-card transition-hover">
+          <div class="blog-img-wrapper">
+            <img src="./image2.jpg" class="card-img-top" alt="Strain Guide">
+          </div>
+          <div class="card-body">
+            <span class="badge bg-success mb-2">Strains</span>
+            <h5 class="card-title">Top 5 Relaxing Strains for Stress Relief</h5>
+            <p class="card-text">Feeling overwhelmed? Discover our favorite cannabis strains to unwind, de-stress, and find your calm after a long day.</p>
+            <!-- <a href="#" class="btn btn-link text-success px-0">Read more →</a> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Post 2 -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="card h-100 shadow-sm blog-card transition-hover">
+          <div class="blog-img-wrapper">
+            <img src="./image3.jpg" class="card-img-top" alt="Edibles Guide">
+          </div>
+          <div class="card-body">
+            <span class="badge bg-success mb-2">Edibles</span>
+            <h5 class="card-title">Edibles 101: Dosage, Onset & How to Stay Safe</h5>
+            <p class="card-text">Edibles can hit hard if you're not careful. Learn how to dose properly and enjoy a positive, mellow experience.</p>
+            <!-- <a href="#" class="btn btn-link text-success px-0">Read more →</a> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog Post 3 -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+        <div class="card h-100 shadow-sm blog-card transition-hover">
+          <div class="blog-img-wrapper">
+            <img src="image4.jpg" class="card-img-top" alt="Cannabis & Wellness">
+          </div>
+          <div class="card-body">
+            <span class="badge bg-success mb-2">Wellness</span>
+            <h5 class="card-title">How Cannabis Supports Mental Clarity & Focus</h5>
+            <p class="card-text">It’s not just about getting high. Explore how certain cannabis strains can actually help improve your focus and mental clarity.</p>
+            <!-- <a href="#" class="btn btn-link text-success px-0">Read more →</a> -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- card section -->
+
+
+
+
+<footer class="bg-dark text-white pt-5 pb-4">
+  <div class="container">
+    <div class="row">
+
+      <!-- Column 1: About -->
+      <div class="col-md-3 mb-4">
+        <!-- <h5 class="fw-bold">GreenLeaf</h5> -->
+          <img 
+        src="./logo.jpeg" 
+        alt="GreenLeaf Logo" 
+        class="me-2" 
+        style="height: 45px; width: auto; object-fit: contain; border-radius: 100%;"
+      />
+        <p>
+          Premium organic cannabis products grown with care and sustainability. From our farm to your hands — naturally.
+        </p>
+      </div>
+
+      <!-- Column 2: Quick Links -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="about.html" class="text-white text-decoration-none">About Us</a></li>
+          <li><a href="services.html" class="text-white text-decoration-none">Services</a></li>
+          <li><a href="testimonial.html" class="text-white text-decoration-none">Testimonials</a></li>
+            <li><a href="contact.html" class="text-white text-decoration-none">Contacts</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Contact Info -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold">Contact</h5>
+        <p class="mb-1"><i class="bi bi-geo-alt-fill me-2"></i>700 N Spring St, Los Angeles, CA 90012, United States</p>
+        <!-- <p class="mb-1"><i class="bi bi-telephone-fill me-2"></i>(123) 456-7890</p> -->
+        <p><i class="bi bi-envelope-fill me-2"></i>trustypaxmenu@gmail.com</p>
+      </div>
+
+      <!-- Column 4: Social Media -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold">Follow Us</h5>
+        <p>
+          <a href="https://www.instagram.com/trustypax?igsh=MWx6dXptbnBkcDhvOA==" target="_blank" class="social-icon me-3">
+            <i class="bi bi-instagram" style="font-size: 1.5rem;"></i>
+          </a>
+          <a href="https://t.me/backpackexoticmenu" target="_blank" class="social-icon">
+            <i class="bi bi-telegram" style="font-size: 1.5rem;"></i>
+          </a>
+        </p>
+      </div>
+
+    </div>
+
+    <hr class="border-light">
+
+    <!-- Bottom Row -->
+    <div class="text-center">
+      <small>&copy; 2025. All rights reserved.</small>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Scripts -->
+  
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+<!-- Bootstrap Bundle JS (includes Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

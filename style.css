@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+.social-icon i {
+    color: white;
+    transition: color 0.3s;
+  }
+  .social-icon:hover i.bi-instagram {
+    color: #E1306C; /* Instagram pink */
+  }
+  .social-icon:hover i.bi-telegram {
+    color: #0088cc; /* Telegram blue */
+  }
+/* hero Section Styles */
+
+
+/* Card Styles */
+ .card {
+   
+      border: none;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+    .card img {
+      object-fit: cover;
+      height: 500px;
+    }
+    /* testimonial section */
+      .testimonial-section {
+      background-color: #f8f9fa;
+      padding: 60px 20px;
+    }
+
+    .testimonial-carousel .carousel-item {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .testimonial-content {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .testimonial-quote {
+      font-size: 1.25rem;
+      font-style: italic;
+      color: #333;
+    }
+
+    .testimonial-name {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    .testimonial-title {
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    .testimonial-img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: #000;
+      border-radius: 50%;
+      padding: 10px;
+    }
+
+
+      .faq-header {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .accordion-button:not(.collapsed) {
+      color: #0d6efd;
+      background-color: #e7f1ff;
+    }
+    /* why choose us section */
+   .payment-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.payment-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.payment-img {
+  max-height: 45px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.payment-card:hover .payment-img {
+  transform: scale(1.1);
+  filter: brightness(1.15);
+}
+
+
