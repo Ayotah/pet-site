@@ -131,3 +131,17 @@ html {
 .whatsapp-icon:hover {
   background-color: #1ebe57;
 }
+
+
+.accordion-button {
+  position: relative;
+  padding-right: 2.5rem;
+}
+.accordion-icon {
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+.accordion-button:not(.collapsed) .accordion-icon {
+  transform: rotate(45deg); /* + becomes × */
+}
