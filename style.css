@@ -145,3 +145,20 @@ html {
 .accordion-button:not(.collapsed) .accordion-icon {
   transform: rotate(45deg); /* + becomes × */
 }
+
+
+  .carousel {
+      max-width: 800px; /* smaller carousel */
+      margin: 50px auto; /* centered */
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+    .carousel-caption {
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 10px;
+      padding: 15px;
+    }
+    .carousel-caption h5, .carousel-caption p {
+      color: #fff;
+    }
